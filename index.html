@@ -11,84 +11,442 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <nav>
-        <h2 id="whatsapp">Whatsapp</h2> 
-        <span class="material-icons-outlined" id="icon">
+
+    <header>
+        <h2 id="whatsapp">Whatsapp</h2>
+        <span class="material-icons" id="icon">
             search
             more_vert
         </span>
-    </nav>
+    </header>
 
-    
-        <aside>
-            <div class="estados"><span class="material-icons-outlined">camera_alt</span></div>
-            <div class="chats"><button id="buton">CHATS </button></div>
-            <div class="estados"><button id="buton">ESTADOS</button></div>
-            <div class="estados"><button id="buton">LLAMADAS</button></div>
-            
-        </aside>
-        <main>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""></div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/2.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done
-            </span></small></article>   
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done
-            </span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-        <article id="articulos"><div class="img"> <img src="img/1.jpeg" alt=""> </div><small>SENA</small><small><span class="material-icons-outlined">
-            done_all</span></small></article>
-            <span class="material-icons-outlined" id="contactos">
-                contact_support
-                </span>
-            </main>
+
+    <aside>
+        <a href="#CAM" id="buton"><span class="material-icons-outlined" id="camara">camera_alt</span></a>
+        <div>
+            <a href="#CHATS" id="chats">CHATS</a>
+            <a href="#ESTADOS" id="buton">ESTADOS</a>
+            <a href="#LLAMADAS" id="buton">LLAMADAS</a>
+        </div>
+
+
+    </aside>
+
+    <main>
+        <div class="container-main">
+            <section id="CAM">
+                s
+                s
+                s
+                s
+            </section>
+            <section id="CHATS">
+                <article id="arch">
+                    <div class="arc"> <span class="material-icons-outlined">
+                            archive
+                        </span></div><small>
+                        <h6>Achivados</h6>
+                    </small><small></small>
+                </article>
+
+
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""></div><small><a href="chat.html"
+                            id="SENA">Maria</a></small><small><span class="material-icons-outlined" id="mate">
+                            done_all</span> <i> Adiós Maria. </i> <span class="material-icons-outlined" id="pin">
+                            push_pin
+                        </span> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="2.jpeg" alt=""> </div><small>ADSI 2339898</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done</span>
+                        <i>instructor: Dios los bendiga</i> <span class="material-icons-outlined" id="sound">
+                            volume_off
+                        </span><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Robinson</small><small><span
+                            class="material-icons-outlined" id="call">
+                            phone_missed
+                        </span> <i> Llamada perdida </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Cruz</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all
+                        </span> <i> xd </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span> <i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Arley</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Andres</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i>
+                        </span> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Victoria </small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Yissus</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Karolina</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Miguel</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Sandra</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Julian</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Jesica</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Vargas</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Brajjan</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Lorena</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Karen</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker</i> <i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Juan</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Leo</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Sofia</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Santiago</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Sebastian</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Brayan</small><small><span
+                            class="material-icons-outlined" id="chu">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Yurany</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>Yamileth</small><small><span
+                            class="material-icons-outlined" id="mate">
+                            done_all</span><i>sticker </i><i class="ho">3:27pm</i></small>
+                </article>
+            </section>
+
+            <section id="ESTADOS">
+                <article id="articulos">
+                    <div class="img"> <img src="3.jpg" alt="" id="mi_estado"> </div><small><b> Mi
+                            estado</b></small><small><span class="material-icons-outlined" id="mas">
+                            add_circle
+                        </span> Añade una actualización </small>
+                </article>
+                <h4>Recientes</h4>
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>Robinson</small><small><span></span>
+
+
+                        <i> hace 11 minutos </i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>Cruz</small><small><span
+                            class="material-icons-outlined" id="mate">
+
+                        </span> <i> hace 20 minutos</i> </small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hace 25 minutos </i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="6.jpg" alt=""> </div><small>Robinson</small><small><span></span>
+
+
+                        <i> hace 30 minutos </i></small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>Cruz</small><small><span
+                            class="material-icons-outlined" id="mate">
+
+                        </span> <i> hace 50 minutos</i> </small>
+                </article>
+                <article id="articulos">
+                    <div class="img"> <img src="6.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Ayer 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="2.jpeg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Ayer 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Ayer 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Ayer 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="6.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="6.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+
+                <article id="articulos">
+                    <div class="img"> <img src="6.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="1.jpeg" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>John</small><small><span
+                            class="material-icons-outlined" id="chu">
+                        </span> <i>Hoy 5:56 a.m. </i></small>
+                </article>
+            </section>
+
+            <section id="LLAMADAS">
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>Maria</small><small><span
+                            class="material-icons-outlined" id="churr">
+                            call_received 
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            videocam
+                            
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>Robinson</small><small><span
+                            class="material-icons-outlined" id="churr">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            
+                            phone
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="2.jpeg" alt=""> </div><small>Sthefany</small><small><span
+                            class="material-icons-outlined" id="chus">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            
+                            phone
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>Carlos</small><small><span
+                            class="material-icons-outlined" id="churr">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            
+                            phone
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>ADSI</small><small><span
+                            class="material-icons-outlined" id="chus">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            videocam
+                            
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>Raul</small><small><span
+                            class="material-icons-outlined" id="churr">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            videocam
+                            
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="6.jpg" alt=""> </div><small>José</small><small><span
+                            class="material-icons-outlined" id="chus">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            videocam
+                            
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="5.jpg" alt=""> </div><small>Clara</small><small><span
+                            class="material-icons-outlined" id="churr">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            videocam
+                            
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>Andres</small><small><span
+                            class="material-icons-outlined" id="chus">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            
+                            phone
+                        </span> </small>
+                </article>
+
+                <article id="articulos">
+                    <div class="img"> <img src="4.gif" alt=""> </div><small>Cruz</small><small><span
+                            class="material-icons-outlined" id="chus">
+                            call_received
+                        </span> <i>8 de marzo 7:40 a.m</i> <span class="material-icons-outlined" id="sound">
+                            
+                            phone
+                        </span> </small>
+                </article>
+
+            </section>
+
+
+        </div>
+    </main>
 
 </body>
+<script src="scrip.js"></script>
 
 </html>
